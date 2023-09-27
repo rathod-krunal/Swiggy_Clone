@@ -51,6 +51,23 @@ import OnlineRestroImg5 from "./OnlineRestro-Img/Shivam Bhojnalay.webp"
 import OnlineRestroImg6 from "./OnlineRestro-Img/Iskon Thal.webp"
 import OnlineRestroImg7 from "./OnlineRestro-Img/Burger King.webp"
 import OnlineRestroImg8 from "./OnlineRestro-Img/KFC.webp"
+import OnlineRestroImg9 from "./OnlineRestro-Img/PizzaHut.webp"
+import ShowMoreImg1 from "./ShowMore-Img/Dominos.webp"
+import ShowMoreImg2 from "./ShowMore-Img/BigBowl.webp"
+import ShowMoreImg3 from "./ShowMore-Img/Alinea.webp"
+import ShowMoreImg4 from "./ShowMore-Img/Pick Meal.webp"
+import ShowMoreImg5 from "./ShowMore-Img/Jay Jalaram.webp"
+import ShowMoreImg6 from "./ShowMore-Img/Udupi shree.webp"
+import ShowMoreImg7 from "./ShowMore-Img/Great Indian.webp"
+import ShowMoreImg8 from "./ShowMore-Img/Kovallam.webp"
+import ShowMoreImg9 from "./ShowMore-Img/Hotel The Lotus.webp"
+import ShowMoreImg10 from "./ShowMore-Img/Shree Mohanthal.webp"
+import ShowMoreImg11 from "./ShowMore-Img/Season9.webp"
+import ShowMoreImg12 from "./ShowMore-Img/Navjivan.webp"
+import ShowMoreImg13 from "./ShowMore-Img/HL fRANKIE.webp"
+import ShowMoreImg14 from "./ShowMore-Img/BabluShree.webp"
+import ShowMoreImg15 from "./ShowMore-Img/LoveForKhichdi.webp"
+
 
 export const Carausals = [
   {
@@ -363,7 +380,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 47589,
     name: "Pizza Hut",
     quantity: 1,
-    image : OnlineRestroImg1
+    image : OnlineRestroImg9
   },
   {
     areaName: "Navrangpura",
@@ -470,6 +487,7 @@ export const ShowMoreBTN = [
     id: 36969,
     name: "Domino's Pizza",
     quantity: 1,
+    image :ShowMoreImg1
   },
   {
     areaName: "CG Road",
@@ -479,6 +497,7 @@ export const ShowMoreBTN = [
     id: 636895,
     name: "Big Bowl",
     quantity: 1,
+    image :ShowMoreImg2
   },
   {
     areaName: "Ellisbridge",
@@ -488,6 +507,7 @@ export const ShowMoreBTN = [
     id: 44388,
     name: "Alinea Restaurant & Banquet",
     quantity: 1,
+    image :ShowMoreImg3
   },
   {
     areaName: "Paldi",
@@ -497,6 +517,7 @@ export const ShowMoreBTN = [
     id: 99297,
     name: "Pick Meal",
     quantity: 1,
+    image :ShowMoreImg4
   },
   {
     areaName: "Ellisbridge",
@@ -506,6 +527,7 @@ export const ShowMoreBTN = [
     id: 108879,
     name: "Jay Jalaram Parotha House",
     quantity: 1,
+    image :ShowMoreImg5
   },
   {
     areaName: "Ellisbridge",
@@ -515,6 +537,7 @@ export const ShowMoreBTN = [
     id: 63469,
     name: "Udupi Shree Darshini Restaurant",
     quantity: 1,
+    image :ShowMoreImg6
   },
   {
     areaName: "Ellisbridge",
@@ -524,6 +547,7 @@ export const ShowMoreBTN = [
     id: 738945,
     name: "Great Indian Khichdi by EatFit",
     quantity: 1,
+    image :ShowMoreImg7
   },
   {
     areaName: "Navrangpura",
@@ -533,6 +557,7 @@ export const ShowMoreBTN = [
     id: 76794,
     name: "Kovallam",
     quantity: 1,
+    image :ShowMoreImg8
   },
   {
     areaName: "Paldi",
@@ -553,6 +578,7 @@ export const ShowMoreBTN = [
     id: 55065,
     name: "Hotel The Lotus Park",
     quantity: 1,
+    image :ShowMoreImg9
   },
   {
     areaName: "Navrangpura",
@@ -562,6 +588,7 @@ export const ShowMoreBTN = [
     id: 690005,
     name: "Shree Mohanthal Bhojanalay",
     quantity: 1,
+    image :ShowMoreImg10
   },
   {
     areaName: "Navrangpura",
@@ -571,6 +598,7 @@ export const ShowMoreBTN = [
     id: 49562,
     name: "Season 9",
     quantity: 1,
+    image :ShowMoreImg11
   },
   {
     areaName: "Paldi",
@@ -580,6 +608,7 @@ export const ShowMoreBTN = [
     id: 42232,
     name: "Navjivan Restaurant",
     quantity: 1,
+    image :ShowMoreImg12
   },
   {
     areaName: "Navrangpura",
@@ -589,6 +618,7 @@ export const ShowMoreBTN = [
     id: 582835,
     name: "HL Frankie",
     quantity: 1,
+    image :ShowMoreImg13
   },
   {
     areaName: "Paldi & Ambawadi",
@@ -598,6 +628,7 @@ export const ShowMoreBTN = [
     id: 421326,
     name: "Bablu Shree Farali Center",
     quantity: 1,
+    image :ShowMoreImg14
   },
   {
     areaName: "Navrangpura",
@@ -607,6 +638,7 @@ export const ShowMoreBTN = [
     id: 310017,
     name: "Love For Khichdis",
     quantity: 1,
+    image :ShowMoreImg15
   },
 ];
 

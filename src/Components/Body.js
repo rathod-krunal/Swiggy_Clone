@@ -13,6 +13,9 @@ function Body() {
       <TopRestro/>
       <div className="hr"></div>
       <OnlineDelRestro/>
+      <div className="ShowMore">
+      <button class="button-17" role="button">Show More</button>
+      </div>
     </div>
   );
 }
