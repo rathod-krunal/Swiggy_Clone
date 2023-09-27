@@ -22,9 +22,10 @@ function Carausls() {
       </div>
       <div className="carausalMapDiv">
         {carausalImg.map((CarausalsImage) => {
+          console.log(CarausalsImage.id)
           return (
-            <div className="CarausalImgDiv">
-              <img src={CarausalsImage} alt="" srcset="" />
+            <div key={carausalImg.id} className="CarausalImgDiv">
+              <img src={CarausalsImage.CarausalImg} alt="" srcset="" />
             </div>
           );
         })}
