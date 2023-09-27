@@ -91,7 +91,6 @@
   position: relative;
   width: 20px;
 }
-
 .NavOffers span:nth-child(3) {
   position: relative;
   bottom: 13px;
@@ -138,10 +137,10 @@
   }
   .RighNav div {
     margin: 0px 0px;
-    font-size: 5px;
+    font-size: 7px;
   }
-  .RighNav div span {
-    margin: 5px;
+  .RighNav div {
+    margin: 3px;
   }
   .RighNav div :nth-child(1) {
     font-size: 8px;
@@ -150,7 +149,6 @@
     position: relative;
     width: 0px;
   }
-
   .NavOffers span:nth-child(3) {
     right: -5px;
     font-size: 3px;
@@ -172,7 +170,6 @@
   }
   .leftNav div {
     margin: 0px 5px;
-    /* border: 1px solid red; */
   }
   .logoDiv {
     height: 25px;
@@ -207,7 +204,6 @@
     position: relative;
     width: 0px;
   }
-
   .NavOffers span:nth-child(3) {
     right: 5px;
     font-size: 6px;
@@ -217,7 +213,6 @@
 }
 
 /* Media Query For Tablets Ipads  */
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .Navbar {
     margin: 0px 0px;
@@ -274,7 +269,6 @@
 .Body {
   position: relative;
   top: 100px;
-  height: 100vh;
 }
 .CarausalDiv {
   width: 75%;
@@ -308,7 +302,6 @@
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-
 .carausalMapDiv {
   display: flex;
   overflow: scroll;
@@ -323,4 +316,221 @@
 }
 .CarausalImgDiv img {
   width: 450px;
+}
+/* Media Query For Mobiles  */
+@media only screen and (max-width: 480px) {
+  .Body {
+    top: 70px;
+  }
+  .CarausalDiv {
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+  }
+  .CarausalDiv h2 {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  .carausalTitleDiv {
+    margin: 0px 0px;
+  }
+  .carausalBtns svg {
+    font-size: 8px;
+  }
+  .CarausalDiv h2 {
+    margin: 0px 0px;
+    font-size: 10px;
+  }
+  .CarausalImgDiv {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .CarausalImgDiv img {
+    width: 100px;
+  }
+}
+
+/* Media Query For Low Resolution Tablets,Ipads  */
+@media (min-width: 481px) and (max-width: 767px) {
+  .Body {
+    top: 70px;
+  }
+  .CarausalDiv {
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+  }
+  .carausalTitleDiv {
+    margin: 0px 0px;
+  }
+  .carausalBtns svg {
+    font-size: 8px;
+  }
+  .CarausalDiv h2 {
+    margin: 0px 0px;
+    font-size: 10px;
+  }
+  .CarausalImgDiv {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .CarausalImgDiv img {
+    width: 100px;
+  }
+}
+
+/* Media Query For Tablets Ipads  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Body {
+    top: 70px;
+  }
+  .CarausalDiv {
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+  }
+  .carausalTitleDiv {
+    margin: 5px 15px;
+  }
+  .carausalBtns svg {
+    font-size: 12px;
+  }
+  .CarausalDiv h2 {
+    margin: 0px 0px;
+    font-size: 15px;
+  }
+  .CarausalImgDiv img {
+    width: 250px;
+  }
+}
+
+.WhatsOnMindDiv {
+  width: 75%;
+  margin: 20px auto;
+  padding: 10px;
+}
+.WhatOnMindTitleDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+  align-items: center;
+}
+.WhatOnMindTitleDiv h2 {
+  margin: 5px 20px;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: bold;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.WhatOnMindBtn svg {
+  font-size: 25px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid lightgray;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.WhatOnMindBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WhatOnMindMap {
+  display: flex;
+  overflow: scroll;
+}
+.WhatOnMindMap::-webkit-scrollbar {
+  display: none;
+}
+.WhatOnMindMap {
+  margin: 10px;
+}
+.WhatOnMindImg img {
+  width: 144px;
+  height: 180px;
+  margin: 10px 9px;
+  cursor: pointer;
+}
+
+/* Media Query For Mobiles  */
+@media only screen and (max-width: 480px) {
+  .WhatsOnMindDiv {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+  }
+  .WhatOnMindTitleDiv {
+    margin: 5px 0px;
+    align-items: center;
+  }
+  .WhatOnMindTitleDiv h2 {
+    margin: 0px 5px;
+    padding-left: 12px;
+    font-size: 10px;
+  }
+  .WhatOnMindBtn svg {
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  .WhatOnMindMap {
+    margin: 5px 5px;
+  }
+  .WhatOnMindImg img {
+    width: 70px;
+    height: 70px;
+    margin: 5px 5px;
+  }
+}
+
+/* Media Query For Low Resolution Tablets,Ipads  */
+@media (min-width: 481px) and (max-width: 767px) {
+  .WhatsOnMindDiv {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  .WhatOnMindTitleDiv {
+    margin: 5px 10px;
+    align-items: center;
+  }
+  .WhatOnMindTitleDiv h2 {
+    margin: 0px 0px;
+    font-size: 12px;
+  }
+  .WhatOnMindBtn svg {
+    font-size: 12px;
+    padding: 5px;
+    margin: 0px 5px;
+  }
+  .WhatOnMindMap {
+    margin: 10px;
+  }
+  .WhatOnMindImg img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 9px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .WhatsOnMindDiv {
+    width: 90%;
+  }
+  .WhatOnMindTitleDiv {
+    margin: 5px 10px;
+  }
+  .WhatOnMindTitleDiv h2 {
+    margin: 5px 20px;
+    font-size: 15px;
+  }
+  .WhatOnMindBtn svg {
+    font-size: 15px;
+  }
+  .WhatOnMindImg img {
+    width: 80px;
+    height: 80px;
+  }
 }

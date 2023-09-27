@@ -1,9 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Carausals } from "../DataBase/Db";
 import { AiOutlineRight } from "react-icons/ai";
 import { AiOutlineLeft } from "react-icons/ai";
 function Carausls() {
-  const [carausalImg, setCarausalImg] = useState(Carausals);
+  const [carausalImg, setCarausalImg] = useState([]);
+
+  useEffect(() => {
+    setCarausalImg(Carausals);
+  }, []);
+
+  if (carausalImg.length === 0) return <h1>Loading</h1>
+
   return (
     <div className="CarausalDiv">
       <div className="carausalTitleDiv">
@@ -13,7 +20,6 @@ function Carausls() {
           <AiOutlineRight />
         </div>
       </div>
-
       <div className="carausalMapDiv">
         {carausalImg.map((CarausalsImage) => {
           return (
