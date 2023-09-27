@@ -1,38 +1,326 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 0px;
+  padding: 0px 10%;
+  box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.15);
+  box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: #fff;
+  z-index: 1000;
+  will-change: transform;
+  transform: translateZ(0);
+  transition: transform 0.3s ease;
+  contain: size layout style;
+  font-family: "Poppins", sans-serif;
+}
+.leftNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftNav div {
+  margin: 5px 10px;
+}
+.logoDiv {
+  height: 49px;
+  width: 34px;
+  cursor: pointer;
+}
+.logoDiv img {
+  width: 100%;
+  height: 100%;
+}
+.NavTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavTitle span:nth-child(1) {
+  font-weight: 600;
+  font-style: bold;
+  font-size: 17px;
+  opacity: 0.8;
+  text-decoration: underline;
+  margin-right: 3px;
+}
+.NavTitle span:nth-child(2) {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-left: 5px;
+}
+.NavTitle :nth-child(3) {
+  color: #fc8019;
+  font-weight: 700;
+  width: 25px;
+  height: 20px;
+}
+.RighNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
+.RighNav div {
+  cursor: pointer;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5px 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.RighNav div span {
+  margin: 5px;
+}
+.RighNav div :nth-child(1) {
+  font-size: 25px;
+}
+.NavOffers span:nth-child(2) {
+  position: relative;
+  width: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.NavOffers span:nth-child(3) {
+  position: relative;
+  bottom: 13px;
+  right: -5px;
+  font-size: 13px;
+  color: #fc8019;
+  font-weight: 600;
+  font-style: bold;
+}
+/* Media Query For Mobiles  */
+@media only screen and (max-width: 480px) {
+  .Navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px;
+    padding: 0px 0%;
+    height: 50px;
+    width: 100%;
+  }
+  .Navbar div {
+    margin: 0px 5px;
+  }
+  .leftNav div {
+    margin: 0px 0px;
+  }
+  .logoDiv {
+    height: 18px;
+    width: 15px;
+  }
+  .NavTitle span:nth-child(1) {
+    font-size: 5px;
+    margin-right: 0px;
+    margin-left: 3px;
+  }
+  .NavTitle span:nth-child(2) {
+    font-size: 4px;
+    margin-left: 3px;
+  }
+  .NavTitle :nth-child(3) {
+    width: 10px;
+  }
+  .RighNav {
+    margin: 0px 0px;
+  }
+  .RighNav div {
+    margin: 0px 0px;
+    font-size: 5px;
+  }
+  .RighNav div span {
+    margin: 5px;
+  }
+  .RighNav div :nth-child(1) {
+    font-size: 8px;
+  }
+  .NavOffers span:nth-child(2) {
+    position: relative;
+    width: 0px;
+  }
+
+  .NavOffers span:nth-child(3) {
+    right: -5px;
+    font-size: 3px;
+    bottom: 5px;
+    left: 3px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Media Query For Low Resolution Tablets,Ipads  */
+@media (min-width: 481px) and (max-width: 767px) {
+  .Navbar {
+    margin: 0px 0px;
+    padding: 3px 0%;
+    height: 50px;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .Navbar div {
+    margin: 0px 5px;
   }
+  .leftNav div {
+    margin: 0px 5px;
+    /* border: 1px solid red; */
+  }
+  .logoDiv {
+    height: 25px;
+    width: 20px;
+  }
+  .NavTitle span:nth-child(1) {
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left: 3px;
+  }
+  .NavTitle span:nth-child(2) {
+    font-size: 6px;
+    margin-left: 3px;
+  }
+  .NavTitle :nth-child(3) {
+    width: 13px;
+  }
+  .RighNav {
+    margin: 0px 0px;
+  }
+  .RighNav div {
+    margin: 0px 6px;
+    font-size: 10px;
+  }
+  .RighNav div span {
+    margin: 5px;
+  }
+  .RighNav div :nth-child(1) {
+    font-size: 15px;
+  }
+  .NavOffers span:nth-child(2) {
+    position: relative;
+    width: 0px;
+  }
+
+  .NavOffers span:nth-child(3) {
+    right: 5px;
+    font-size: 6px;
+    bottom: 7px;
+    left: 12px;
+  }
+}
+
+/* Media Query For Tablets Ipads  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Navbar {
+    margin: 0px 0px;
+    padding: 3px 8px;
+    height: 50px;
+    width: 100%;
+  }
+  .Navbar div {
+    margin: 0px 15px;
+  }
+  .leftNav div {
+    margin: 0px 5px;
+  }
+  .logoDiv {
+    height: 50px;
+    width: 25px;
+  }
+  .NavTitle span:nth-child(1) {
+    font-size: 15px;
+    margin-right: 0px;
+    margin-left: 3px;
+  }
+  .NavTitle span:nth-child(2) {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .NavTitle :nth-child(3) {
+    width: 18px;
+  }
+  .RighNav {
+    margin: 0px 0px;
+  }
+  .RighNav div {
+    margin: 0px 6px;
+    font-size: 15px;
+  }
+  .RighNav div span {
+    margin: 5px;
+  }
+  .NavHelp :nth-child(1) {
+    margin-left: 12px;
+  }
+  .RighNav div :nth-child(1) {
+    font-size: 15px;
+  }
+  .NavOffers span:nth-child(3) {
+    right: 5px;
+    font-size: 10px;
+    bottom: 12px;
+    left: 15px;
+  }
+}
+
+.Body {
+  position: relative;
+  top: 100px;
+  height: 100vh;
+}
+.CarausalDiv {
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+.carausalTitleDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+  align-items: center;
+}
+.carausalBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carausalBtns svg {
+  font-size: 25px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid lightgray;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.CarausalDiv h2 {
+  margin: 5px 20px;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: bold;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.carausalMapDiv {
+  display: flex;
+  overflow: scroll;
+}
+.carausalMapDiv::-webkit-scrollbar {
+  display: none;
+}
+.CarausalImgDiv {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+.CarausalImgDiv img {
+  width: 450px;
 }
