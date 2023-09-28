@@ -3,19 +3,21 @@ import Carausls from "./Carausls";
 import WhatsOnYourMind from "./WhatsOnYourMind";
 import TopRestro from "./TopRestro";
 import OnlineDelRestro from "./OnlineDelRestro";
+import NearMe from "./NearMe";
+import Footer from "./Footer"
 
 function Body() {
   return (
     <div className="Body">
       <Carausls />
-      <WhatsOnYourMind/>
+      <WhatsOnYourMind />
       <div className="hr"></div>
-      <TopRestro/>
+      <TopRestro />
       <div className="hr"></div>
-      <OnlineDelRestro/>
-      <div className="ShowMore">
-      <button class="button-17" role="button">Show More</button>
-      </div>
+      <OnlineDelRestro />
+      <div className="hr"></div>
+      <NearMe/>
+      <Footer/>
     </div>
   );
 }
