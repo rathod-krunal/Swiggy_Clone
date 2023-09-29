@@ -43,31 +43,55 @@ import WhatInMind17 from "./WhatsOnYourMindImg/Pure_Veg.webp";
 import WhatInMind18 from "./WhatsOnYourMindImg/Ice_Creams.webp";
 import WhatInMind19 from "./WhatsOnYourMindImg/South_Indian_4.webp";
 import WhatInMind20 from "./WhatsOnYourMindImg/Salad.webp";
-import OnlineRestroImg1 from "./OnlineRestro-Img/VittleBox.webp"
-import OnlineRestroImg2 from "./OnlineRestro-Img/Saladific.webp"
-import OnlineRestroImg3 from "./OnlineRestro-Img/McDonalds.webp"
-import OnlineRestroImg4 from "./OnlineRestro-Img/Iqbal Hotel.webp"
-import OnlineRestroImg5 from "./OnlineRestro-Img/Shivam Bhojnalay.webp"
-import OnlineRestroImg6 from "./OnlineRestro-Img/Iskon Thal.webp"
-import OnlineRestroImg7 from "./OnlineRestro-Img/Burger King.webp"
-import OnlineRestroImg8 from "./OnlineRestro-Img/KFC.webp"
-import OnlineRestroImg9 from "./OnlineRestro-Img/PizzaHut.webp"
-import ShowMoreImg1 from "./ShowMore-Img/Dominos.webp"
-import ShowMoreImg2 from "./ShowMore-Img/BigBowl.webp"
-import ShowMoreImg3 from "./ShowMore-Img/Alinea.webp"
-import ShowMoreImg4 from "./ShowMore-Img/Pick Meal.webp"
-import ShowMoreImg5 from "./ShowMore-Img/Jay Jalaram.webp"
-import ShowMoreImg6 from "./ShowMore-Img/Udupi shree.webp"
-import ShowMoreImg7 from "./ShowMore-Img/Great Indian.webp"
-import ShowMoreImg8 from "./ShowMore-Img/Kovallam.webp"
-import ShowMoreImg9 from "./ShowMore-Img/Hotel The Lotus.webp"
-import ShowMoreImg10 from "./ShowMore-Img/Shree Mohanthal.webp"
-import ShowMoreImg11 from "./ShowMore-Img/Season9.webp"
-import ShowMoreImg12 from "./ShowMore-Img/Navjivan.webp"
-import ShowMoreImg13 from "./ShowMore-Img/HL fRANKIE.webp"
-import ShowMoreImg14 from "./ShowMore-Img/BabluShree.webp"
-import ShowMoreImg15 from "./ShowMore-Img/LoveForKhichdi.webp"
-
+import OnlineRestroImg1 from "./OnlineRestro-Img/VittleBox.webp";
+import OnlineRestroImg2 from "./OnlineRestro-Img/Saladific.webp";
+import OnlineRestroImg3 from "./OnlineRestro-Img/McDonalds.webp";
+import OnlineRestroImg4 from "./OnlineRestro-Img/Iqbal Hotel.webp";
+import OnlineRestroImg5 from "./OnlineRestro-Img/Shivam Bhojnalay.webp";
+import OnlineRestroImg6 from "./OnlineRestro-Img/Iskon Thal.webp";
+import OnlineRestroImg7 from "./OnlineRestro-Img/Burger King.webp";
+import OnlineRestroImg8 from "./OnlineRestro-Img/KFC.webp";
+import OnlineRestroImg9 from "./OnlineRestro-Img/PizzaHut.webp";
+import ShowMoreImg1 from "./ShowMore-Img/Dominos.webp";
+import ShowMoreImg2 from "./ShowMore-Img/BigBowl.webp";
+import ShowMoreImg3 from "./ShowMore-Img/Alinea.webp";
+import ShowMoreImg4 from "./ShowMore-Img/Pick Meal.webp";
+import ShowMoreImg5 from "./ShowMore-Img/Jay Jalaram.webp";
+import ShowMoreImg6 from "./ShowMore-Img/Udupi shree.webp";
+import ShowMoreImg7 from "./ShowMore-Img/Great Indian.webp";
+import ShowMoreImg8 from "./ShowMore-Img/Kovallam.webp";
+import ShowMoreImg9 from "./ShowMore-Img/Hotel The Lotus.webp";
+import ShowMoreImg10 from "./ShowMore-Img/Shree Mohanthal.webp";
+import ShowMoreImg11 from "./ShowMore-Img/Season9.webp";
+import ShowMoreImg12 from "./ShowMore-Img/Navjivan.webp";
+import ShowMoreImg13 from "./ShowMore-Img/HL fRANKIE.webp";
+import ShowMoreImg14 from "./ShowMore-Img/BabluShree.webp";
+import ShowMoreImg15 from "./ShowMore-Img/LoveForKhichdi.webp";
+import MenuCarausal1 from "./MenuTopPicks/Menu.webp";
+import MenuCarausal2 from "./MenuTopPicks/menu2.webp";
+import MenuCarausal3 from "./MenuTopPicks/menu3.webp";
+import MenuCarausal4 from "./MenuTopPicks/menu4.webp";
+import MenuCarausal5 from "./MenuTopPicks/menu5.webp";
+import value1 from "./ValueMeal/value.webp";
+import value2 from "./ValueMeal/value1.webp";
+import value3 from "./ValueMeal/value2.webp";
+import value4 from "./ValueMeal/value3.webp";
+import value5 from "./ValueMeal/value5.webp";
+import value6 from "./ValueMeal/value6.webp";
+import value7 from "./ValueMeal/value7.webp";
+import value8 from "./ValueMeal/value8.webp";
+import value9 from "./ValueMeal/value9.webp";
+import value10 from "./ValueMeal/value10.webp";
+import value11 from "./ValueMeal/value11.webp";
+import value12 from "./ValueMeal/value12.webp";
+import SubWay1 from "./MenuTopPicks/subway1.webp"
+import SubWay2 from "./MenuTopPicks/subway2.webp"
+import SubWay3 from "./MenuTopPicks/subway3.webp"
+import SubWay4 from "./MenuTopPicks/subway4.webp"
+import SubWay5 from "./MenuTopPicks/subway5.webp"
+import SubWay6 from "./MenuTopPicks/subway6.webp"
+import SubWay7 from "./MenuTopPicks/subway7.webp"
+import SubWay8 from "./MenuTopPicks/subway8.webp"
 
 export const Carausals = [
   {
@@ -380,7 +404,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 47589,
     name: "Pizza Hut",
     quantity: 1,
-    image : OnlineRestroImg9
+    image: OnlineRestroImg9,
   },
   {
     areaName: "Navrangpura",
@@ -397,7 +421,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 37996,
     name: "Vittlebox",
     quantity: 1,
-    image : OnlineRestroImg1
+    image: OnlineRestroImg1,
   },
   {
     areaName: "Suchitra Circle",
@@ -407,7 +431,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 736838,
     name: "Saladific",
     quantity: 1,
-    image : OnlineRestroImg2
+    image: OnlineRestroImg2,
   },
   {
     areaName: "Ellis Bridge",
@@ -417,7 +441,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 52630,
     name: "McDonald's",
     quantity: 1,
-    image : OnlineRestroImg3
+    image: OnlineRestroImg3,
   },
   {
     areaName: "Jamalpur",
@@ -427,7 +451,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 87903,
     name: "Iqbal Hotel-Since 1947",
     quantity: 1,
-    image : OnlineRestroImg4
+    image: OnlineRestroImg4,
   },
   {
     areaName: "Ahmedabad",
@@ -444,7 +468,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 38230,
     name: "Shivam Bhojnalay",
     quantity: 1,
-    image : OnlineRestroImg5
+    image: OnlineRestroImg5,
   },
   {
     areaName: "Satellite",
@@ -454,7 +478,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 114323,
     name: "Iscon Thal",
     quantity: 1,
-    image : OnlineRestroImg6
+    image: OnlineRestroImg6,
   },
   {
     areaName: "Ellisbridge",
@@ -464,7 +488,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 81814,
     name: "Burger King",
     quantity: 1,
-    image : OnlineRestroImg7
+    image: OnlineRestroImg7,
   },
   {
     areaName: "Paldi & Ambawadi",
@@ -474,7 +498,7 @@ export const Restaurants_With_Online_FoodDelivery = [
     id: 395939,
     name: "KFC",
     quantity: 1,
-    image : OnlineRestroImg8
+    image: OnlineRestroImg8,
   },
 ];
 
@@ -487,7 +511,7 @@ export const ShowMoreBTN = [
     id: 36969,
     name: "Domino's Pizza",
     quantity: 1,
-    image :ShowMoreImg1
+    image: ShowMoreImg1,
   },
   {
     areaName: "CG Road",
@@ -497,7 +521,7 @@ export const ShowMoreBTN = [
     id: 636895,
     name: "Big Bowl",
     quantity: 1,
-    image :ShowMoreImg2
+    image: ShowMoreImg2,
   },
   {
     areaName: "Ellisbridge",
@@ -507,7 +531,7 @@ export const ShowMoreBTN = [
     id: 44388,
     name: "Alinea Restaurant & Banquet",
     quantity: 1,
-    image :ShowMoreImg3
+    image: ShowMoreImg3,
   },
   {
     areaName: "Paldi",
@@ -517,7 +541,7 @@ export const ShowMoreBTN = [
     id: 99297,
     name: "Pick Meal",
     quantity: 1,
-    image :ShowMoreImg4
+    image: ShowMoreImg4,
   },
   {
     areaName: "Ellisbridge",
@@ -527,7 +551,7 @@ export const ShowMoreBTN = [
     id: 108879,
     name: "Jay Jalaram Parotha House",
     quantity: 1,
-    image :ShowMoreImg5
+    image: ShowMoreImg5,
   },
   {
     areaName: "Ellisbridge",
@@ -537,7 +561,7 @@ export const ShowMoreBTN = [
     id: 63469,
     name: "Udupi Shree Darshini Restaurant",
     quantity: 1,
-    image :ShowMoreImg6
+    image: ShowMoreImg6,
   },
   {
     areaName: "Ellisbridge",
@@ -547,7 +571,7 @@ export const ShowMoreBTN = [
     id: 738945,
     name: "Great Indian Khichdi by EatFit",
     quantity: 1,
-    image :ShowMoreImg7
+    image: ShowMoreImg7,
   },
   {
     areaName: "Navrangpura",
@@ -557,7 +581,7 @@ export const ShowMoreBTN = [
     id: 76794,
     name: "Kovallam",
     quantity: 1,
-    image :ShowMoreImg8
+    image: ShowMoreImg8,
   },
   {
     areaName: "Paldi",
@@ -578,7 +602,7 @@ export const ShowMoreBTN = [
     id: 55065,
     name: "Hotel The Lotus Park",
     quantity: 1,
-    image :ShowMoreImg9
+    image: ShowMoreImg9,
   },
   {
     areaName: "Navrangpura",
@@ -588,7 +612,7 @@ export const ShowMoreBTN = [
     id: 690005,
     name: "Shree Mohanthal Bhojanalay",
     quantity: 1,
-    image :ShowMoreImg10
+    image: ShowMoreImg10,
   },
   {
     areaName: "Navrangpura",
@@ -598,7 +622,7 @@ export const ShowMoreBTN = [
     id: 49562,
     name: "Season 9",
     quantity: 1,
-    image :ShowMoreImg11
+    image: ShowMoreImg11,
   },
   {
     areaName: "Paldi",
@@ -608,7 +632,7 @@ export const ShowMoreBTN = [
     id: 42232,
     name: "Navjivan Restaurant",
     quantity: 1,
-    image :ShowMoreImg12
+    image: ShowMoreImg12,
   },
   {
     areaName: "Navrangpura",
@@ -618,7 +642,7 @@ export const ShowMoreBTN = [
     id: 582835,
     name: "HL Frankie",
     quantity: 1,
-    image :ShowMoreImg13
+    image: ShowMoreImg13,
   },
   {
     areaName: "Paldi & Ambawadi",
@@ -628,7 +652,7 @@ export const ShowMoreBTN = [
     id: 421326,
     name: "Bablu Shree Farali Center",
     quantity: 1,
-    image :ShowMoreImg14
+    image: ShowMoreImg14,
   },
   {
     areaName: "Navrangpura",
@@ -638,7 +662,7 @@ export const ShowMoreBTN = [
     id: 310017,
     name: "Love For Khichdis",
     quantity: 1,
-    image :ShowMoreImg15
+    image: ShowMoreImg15,
   },
 ];
 
@@ -752,3 +776,262 @@ export const Explore_Every_Restaurant_Near_Me = [
     name: "Explore Top Rated Restaurants Near Me",
   },
 ];
+
+export const Menu_List = [
+  {
+    id: "52630",
+    name: "McDonald's",
+    areaName: "Ellis Bridge",
+    avgRating: 4.2,
+    costForTwo: 40000,
+    cuisines: ["Burgers", "Beverages"],
+    enrichedText: "1.7 kms | ₹28 Delivery fee will apply",
+    totalRatings: "10K+ ratings",
+    deliveryTime: 16,
+    offers: [
+      {
+        couponCode: "USE PARTY",
+        description: "ABOVE ₹999",
+        header: "FLAT ₹10% OFF",
+        offerTag: "FLAT DEAL",
+      },
+      {
+        couponCode: "NO CODE REQUIRED",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹50 OFF",
+        offerTag: "FLAT DEAL",
+      },
+      {
+        couponCode: "USE RUPAY100",
+        description: "ABOVE ₹129",
+        header: "20% OFF UPTO ₹100",
+      },
+      {
+        couponCode: "USE CITIFOODIE",
+        description: "ABOVE ₹1200",
+        header: "15% OFF UPTO ₹300",
+      },
+      {
+        couponCode: "USE AXIS120",
+        description: "FLAT ₹120 OFF",
+        header: "ABOVE ₹500",
+      },
+    ],
+    TopPicks : {
+      title : "Top Picks",
+      TopPicksImg : [
+        {
+          id: "Mac1",
+          image : MenuCarausal1
+        },
+        {
+          id: "Mac2",
+          image : MenuCarausal2
+        },
+        {
+          id: "Mac2",
+          image : MenuCarausal3
+        },
+        {
+          id: "Mac4",
+          image : MenuCarausal4
+        },
+        {
+          id: "Mac5",
+          image : MenuCarausal5
+        },
+      ]
+    },
+    ValueMeal: [
+      {
+        id: "ValueMeal0",
+        title: "Value Meals for 2 (Minimum 25% Off)",
+      },
+      {
+        id: "117964758",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+        name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+        price: 38857,
+        inStock: 1,
+        image: value1,
+      },
+      {
+        id: "117964759",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+        name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+        price: 49143,
+        inStock: 1,
+        image: value2,
+      },
+      {
+        id: "117964760",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+        name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+        price: 38857,
+        inStock: 1,
+        image: value3,
+      },
+      {
+        id: "117964767",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+        name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+        price: 30667,
+        inStock: 1,
+        image: value4,
+      },
+      {
+        id: "118017812",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+        name: "2 McChicken Burger + Fries (L) + 2 Coke",
+        price: 38858,
+        inStock: 1,
+        image: value5,
+      },
+      {
+        id: "118017813",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+        name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+        price: 49048,
+        inStock: 1,
+        image: value6,
+      },
+      {
+        id: "118017814",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+        name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+        price: 38858,
+        inStock: 1,
+        image: value7,
+      },
+      {
+        id: "118017816",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+        name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+        price: 33715,
+        inStock: 1,
+        image: value8,
+      },
+      {
+        id: "125283759",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+        name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+        price: 41925,
+        inStock: 1,
+        image: value9,
+      },
+      {
+        id: "125283760",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+        name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+        price: 46938,
+        inStock: 1,
+        image: value10,
+      },
+      {
+        id: "125283761",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+        name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+        price: 64888,
+        inStock: 1,
+        image: value11,
+      },
+      {
+        id: "125283762",
+        description:
+          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+        name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+        price: 61942,
+        inStock: 1,
+        image: value12,
+      },
+    ],
+  },
+  {
+    id: "40831",
+    name: "Subway",
+    areaName: "Navrangpura",
+    avgRating: 4.0,
+    costForTwo: 35000,
+    cuisines: ["Healthy Food", "Salads"],
+    enrichedText: "1.7 kms | ₹28 Delivery fee will apply",
+    totalRatings: "1K+ ratings",
+    deliveryTime: 18,
+    offers: [
+      {
+        couponCode: "USE TRYNEW",
+        description: "ON SELECT ITEMS",
+        header: "30% OFF UPTO ₹75",
+      },
+      {
+        couponCode: "NO CODE REQUIRED",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹50 OFF",
+      },
+      {
+        couponCode: "USE RUPAY100",
+        description: "ABOVE ₹129",
+        header: "20% OFF UPTO ₹100",
+      },
+      {
+        couponCode: "USE CITIFOODIE",
+        description: "ABOVE ₹1200",
+        header: "15% OFF UPTO ₹300",
+      },
+      {
+        couponCode: "USE AXIS120",
+        description: "FLAT ₹120 OFF",
+        header: "ABOVE ₹500",
+      },
+    ],
+    TopPicks : {
+      title : "Top Picks",
+      TopPicksImg : [
+        {
+          id: "subWay1",
+          image : SubWay1
+        },
+        {
+          id: "subWay2",
+          image : SubWay2
+        },
+        {
+          id: "subWay3",
+          image : SubWay3
+        },
+        {
+          id: "subWay4",
+          image : SubWay4
+        },
+        {
+          id: "subWay5",
+          image : SubWay5
+        },
+        {
+          id: "subWay6",
+          image : SubWay6
+        },
+        {
+          id: "subWay7",
+          image : SubWay7
+        },
+        {
+          id: "subWay8",
+          image : SubWay8
+        },
+      ]
+    }
+  },
+];
+
+

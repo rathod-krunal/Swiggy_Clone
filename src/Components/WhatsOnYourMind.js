@@ -3,6 +3,7 @@ import { What_On_YourMind } from '../DataBase/Db';
 import { AiOutlineRight } from "react-icons/ai";
 import { AiOutlineLeft } from "react-icons/ai";
 
+
 function WhatsOnYourMind() {
     const [WhatOnMindImg, setWhatOnMindImg] = useState([]);
 

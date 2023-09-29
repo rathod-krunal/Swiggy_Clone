@@ -3,6 +3,7 @@ import { Top_Restro_Chain_In_Ahemdabad } from '../DataBase/Db'
 import ProductCards from './ProductCards';
 import { AiOutlineRight } from "react-icons/ai";
 import { AiOutlineLeft } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 function TopRestro() {
     const [topRestro,setTopRestro]= useState([]);
     useEffect(()=>{
@@ -21,7 +22,9 @@ function TopRestro() {
     <div className="TopRestroMap">
       {topRestro.map((topRestro) => {
         return (
-         <ProductCards ResData={topRestro} />
+          <Link to={"/restaurant/" + topRestro.id} key={topRestro.id}>
+          <ProductCards ResData={topRestro} />
+          </Link>
         );
       })}
     </div>
