@@ -84,14 +84,34 @@ import value9 from "./ValueMeal/value9.webp";
 import value10 from "./ValueMeal/value10.webp";
 import value11 from "./ValueMeal/value11.webp";
 import value12 from "./ValueMeal/value12.webp";
-import SubWay1 from "./MenuTopPicks/subway1.webp"
-import SubWay2 from "./MenuTopPicks/subway2.webp"
-import SubWay3 from "./MenuTopPicks/subway3.webp"
-import SubWay4 from "./MenuTopPicks/subway4.webp"
-import SubWay5 from "./MenuTopPicks/subway5.webp"
-import SubWay6 from "./MenuTopPicks/subway6.webp"
-import SubWay7 from "./MenuTopPicks/subway7.webp"
-import SubWay8 from "./MenuTopPicks/subway8.webp"
+import SubWay1 from "./MenuTopPicks/subway1.webp";
+import SubWay2 from "./MenuTopPicks/subway2.webp";
+import SubWay3 from "./MenuTopPicks/subway3.webp";
+import SubWay4 from "./MenuTopPicks/subway4.webp";
+import SubWay5 from "./MenuTopPicks/subway5.webp";
+import SubWay6 from "./MenuTopPicks/subway6.webp";
+import SubWay7 from "./MenuTopPicks/subway7.webp";
+import SubWay8 from "./MenuTopPicks/subway8.webp";
+import PizzaHut1 from "./MenuTopPicks/Pizaahut1.webp";
+import PizzaHut2 from "./MenuTopPicks/Pizaahut2.webp";
+import PizzaHut3 from "./MenuTopPicks/pizaahut3.webp";
+import PizzaHut4 from "./MenuTopPicks/pizaahut4.webp";
+import PizzaHut5 from "./MenuTopPicks/pizaahut5.webp";
+import PizzaHut6 from "./MenuTopPicks/pizaahut6.webp";
+import KFC1 from "./MenuTopPicks/Kfc1.webp";
+import KFC2 from "./MenuTopPicks/Kfc2.webp";
+import KFC3 from "./MenuTopPicks/Kfc3.webp";
+import KFC4 from "./MenuTopPicks/Kfc4.webp";
+import KFC5 from "./MenuTopPicks/Kfc5.webp";
+import KFC6 from "./MenuTopPicks/Kfc6.webp";
+import KFC7 from "./MenuTopPicks/Kfc7.webp";
+import Dominoz1 from "./MenuTopPicks/Dominoz1.webp";
+import Dominoz2 from "./MenuTopPicks/Dominoz2.webp";
+import LaPinoz1 from "./MenuTopPicks/LaPinoz1.webp";
+import LaPinoz2 from "./MenuTopPicks/LaPinoz2.webp";
+import LaPinoz3 from "./MenuTopPicks/LaPiNOZ3.webp";
+import LaPinoz4 from "./MenuTopPicks/LaPinoz4.webp";
+import LaPinoz5 from "./MenuTopPicks/LaPinoz5.webp";
 
 export const Carausals = [
   {
@@ -817,143 +837,316 @@ export const Menu_List = [
         header: "ABOVE ₹500",
       },
     ],
-    TopPicks : {
-      title : "Top Picks",
-      TopPicksImg : [
+    TopPicks: {
+      title: "Top Picks",
+      TopPicksImg: [
         {
           id: "Mac1",
-          image : MenuCarausal1
+          image: MenuCarausal1,
         },
         {
           id: "Mac2",
-          image : MenuCarausal2
+          image: MenuCarausal2,
         },
         {
           id: "Mac2",
-          image : MenuCarausal3
+          image: MenuCarausal3,
         },
         {
           id: "Mac4",
-          image : MenuCarausal4
+          image: MenuCarausal4,
         },
         {
           id: "Mac5",
-          image : MenuCarausal5
+          image: MenuCarausal5,
         },
-      ]
+      ],
     },
-    ValueMeal: [
+    CarausalDatas: [
       {
-        id: "ValueMeal0",
-        title: "Value Meals for 2 (Minimum 25% Off)",
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
       },
       {
-        id: "117964758",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
-        name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
-        price: 38857,
-        inStock: 1,
-        image: value1,
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
       },
       {
-        id: "117964759",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
-        name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
-        price: 49143,
-        inStock: 1,
-        image: value2,
-      },
-      {
-        id: "117964760",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
-        name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
-        price: 38857,
-        inStock: 1,
-        image: value3,
-      },
-      {
-        id: "117964767",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
-        name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
-        price: 30667,
-        inStock: 1,
-        image: value4,
-      },
-      {
-        id: "118017812",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
-        name: "2 McChicken Burger + Fries (L) + 2 Coke",
-        price: 38858,
-        inStock: 1,
-        image: value5,
-      },
-      {
-        id: "118017813",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
-        name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
-        price: 49048,
-        inStock: 1,
-        image: value6,
-      },
-      {
-        id: "118017814",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
-        name: "2 McVeggie Burger + Fries (L) + 2 Coke",
-        price: 38858,
-        inStock: 1,
-        image: value7,
-      },
-      {
-        id: "118017816",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
-        name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
-        price: 33715,
-        inStock: 1,
-        image: value8,
-      },
-      {
-        id: "125283759",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
-        name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
-        price: 41925,
-        inStock: 1,
-        image: value9,
-      },
-      {
-        id: "125283760",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
-        name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
-        price: 46938,
-        inStock: 1,
-        image: value10,
-      },
-      {
-        id: "125283761",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
-        name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
-        price: 64888,
-        inStock: 1,
-        image: value11,
-      },
-      {
-        id: "125283762",
-        description:
-          "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
-        name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
-        price: 61942,
-        inStock: 1,
-        image: value12,
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
       },
     ],
   },
@@ -994,44 +1187,2354 @@ export const Menu_List = [
         header: "ABOVE ₹500",
       },
     ],
-    TopPicks : {
-      title : "Top Picks",
-      TopPicksImg : [
+    TopPicks: {
+      title: "Top Picks",
+      TopPicksImg: [
         {
           id: "subWay1",
-          image : SubWay1
+          image: SubWay1,
         },
         {
           id: "subWay2",
-          image : SubWay2
+          image: SubWay2,
         },
         {
           id: "subWay3",
-          image : SubWay3
+          image: SubWay3,
         },
         {
           id: "subWay4",
-          image : SubWay4
+          image: SubWay4,
         },
         {
           id: "subWay5",
-          image : SubWay5
+          image: SubWay5,
         },
         {
           id: "subWay6",
-          image : SubWay6
+          image: SubWay6,
         },
         {
           id: "subWay7",
-          image : SubWay7
+          image: SubWay7,
         },
         {
           id: "subWay8",
-          image : SubWay8
+          image: SubWay8,
         },
-      ]
-    }
+      ],
+    },
+    CarausalDatas: [
+      {
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
+      },
+      {
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
+      },
+      {
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "114323",
+    name: "Iscon Thal",
+    areaName: "Satellite",
+    avgRating: 4.2,
+    costForTwo: 20000,
+    cuisines: ["Gujarati", "Thalis"],
+    enrichedText: "Far (8 kms) | Additional delivery fee will apply",
+    totalRatings: "10K+ ratings",
+    deliveryTime: 33,
+    offers: [
+      {
+        couponCode: "USE FLATDEAL",
+        description: "ABOVE ₹399",
+        header: "FLAT ₹150 OFF",
+      },
+      {
+        couponCode: "USE PARTY",
+        description: "ABOVE ₹800",
+        header: "FLAT 20% OFF",
+      },
+      {
+        couponCode: "NO CODE REQUIRED",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹50 OFF",
+      },
+      {
+        couponCode: "USE CITIFOODIE",
+        description: "ABOVE ₹1200",
+        header: "15% OFF UPTO ₹300",
+      },
+      {
+        couponCode: "USE AXIS120",
+        description: "FLAT ₹120 OFF",
+        header: "ABOVE ₹500",
+      },
+    ],
+    CarausalDatas: [
+      {
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
+      },
+      {
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
+      },
+      {
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "47589",
+    name: "Pizza Hut",
+    areaName: "Navrangpura",
+    avgRating: 3.7,
+    costForTwo: 35000,
+    cuisines: ["Pizzas"],
+    enrichedText: "1.5 kms | ₹30 Delivery fee will apply",
+    totalRatings: "5K+ ratings",
+    deliveryTime: 28,
+    offers: [
+      {
+        couponCode: "NO CODE REQUIRED",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹50 OFF",
+      },
+      {
+        couponCode: "USE CITIFOODIE",
+        description: "ABOVE ₹1200",
+        header: "15% OFF UPTO ₹300",
+      },
+      {
+        couponCode: "USE AXIS120",
+        description: "ABOVE ₹500",
+        header: "FLAT ₹120 OFF",
+      },
+      {
+        couponCode: "USE AXIS200",
+        description: "ABOVE ₹500",
+        header: "FLAT ₹200 OFF",
+      },
+    ],
+    TopPicks: {
+      title: "Top Picks",
+      TopPicksImg: [
+        {
+          id: "pizzahut1",
+          image: PizzaHut1,
+        },
+        {
+          id: "pizzahut2",
+          image: PizzaHut2,
+        },
+        {
+          id: "pizzahut3",
+          image: PizzaHut3,
+        },
+        {
+          id: "pizzahut4",
+          image: PizzaHut4,
+        },
+        {
+          id: "pizzahut5",
+          image: PizzaHut5,
+        },
+        {
+          id: "pizzahut6",
+          image: PizzaHut6,
+        },
+      ],
+    },
+    CarausalDatas: [
+      {
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
+      },
+      {
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
+      },
+      {
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "395939",
+    name: "KFC",
+    areaName: "Paldi & Ambawadi",
+    avgRating: 3.9,
+    costForTwo: 40000,
+    cuisines: ["Burgers", "Biryani"],
+    enrichedText: "1.7 kms | ₹37 Delivery fee will apply",
+    totalRatings: "1K+ ratings",
+    deliveryTime: 18,
+    offers: [
+      {
+        couponCode: "USE TRYNEW",
+        description: "ON SELECT ITEMS",
+        header: "20% OFF UPTO ₹50",
+      },
+      {
+        couponCode: "NO CODE REQUIRED",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹50 OFF",
+      },
+      {
+        couponCode: "USE CITIFOODIE",
+        description: "ABOVE ₹1200",
+        header: "15% OFF UPTO ₹300",
+      },
+      {
+        couponCode: "USE AXIS120",
+        description: "ABOVE ₹500",
+        header: "FLAT ₹120 OFF",
+      },
+      {
+        couponCode: "USE AXIS200",
+        description: "ABOVE ₹500",
+        header: "FLAT ₹200 OFF",
+      },
+    ],
+    TopPicks: {
+      title: "Top Picks",
+      TopPicksImg: [
+        {
+          id: "kfc1",
+          image: KFC1,
+        },
+        {
+          id: "kfc2",
+          image: KFC2,
+        },
+        {
+          id: "kfc3",
+          image: KFC3,
+        },
+        {
+          id: "kfc4",
+          image: KFC4,
+        },
+        {
+          id: "kfc5",
+          image: KFC5,
+        },
+        {
+          id: "kfc6",
+          image: KFC6,
+        },
+        {
+          id: "kfc7",
+          image: KFC7,
+        },
+      ],
+    },
+    CarausalDatas: [
+      {
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
+      },
+      {
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
+      },
+      {
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "81814",
+    name: "Burger King",
+    areaName: "Ellisbridge",
+    avgRating: 4.1,
+    costForTwo: 35000,
+    cuisines: ["Burgers", "American"],
+    enrichedText: "1.7 kms | ₹30 Delivery fee will apply",
+    totalRatings: "1K+ ratings",
+    deliveryTime: 21,
+    offers: [
+      {
+        couponCode: "DEAL OF DAY",
+        description: "EVERY ITEM @ ₹129",
+        header: "EVERY ITEM @ ₹129",
+      },
+    ],
+    CarausalDatas: [
+      {
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
+      },
+      {
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
+      },
+      {
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "36969",
+    name: "Domino's Pizza",
+    areaName: "Ellisbridge",
+    avgRating: 3.8,
+    costForTwo: 40000,
+    cuisines: ["Pizzas", "Italian"],
+    enrichedText: "1.7 kms | ₹30 Delivery fee will apply",
+    totalRatings: "1K+ ratings",
+    deliveryTime: 25,
+    offers: [
+      {
+        couponCode: "USE WELCOMEDOM150",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹150 OFF",
+      },
+      {
+        couponCode: "USE FLAT100",
+        description: "ABOVE ₹999",
+        header: "FLAT ₹100 OFF",
+      },
+      {
+        couponCode: "NO CODE REQUIRED",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹50 OFF",
+      },
+      {
+        couponCode: "USE CITIFOODIE",
+        description: "ABOVE ₹1200",
+        header: "15% OFF UPTO ₹300",
+      },
+      {
+        couponCode: "USE AXIS120",
+        description: "ABOVE ₹500",
+        header: "FLAT ₹120 OFF",
+      },
+    ],
+    TopPicks: {
+      title: "Top Picks",
+      TopPicksImg: [
+        {
+          id: "Dom1",
+          image: Dominoz1,
+        },
+        {
+          id: "Dom2",
+          image: Dominoz2,
+        },
+      ],
+    },
+    CarausalDatas: [
+      {
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
+      },
+      {
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
+      },
+      {
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "378472",
+    name: "La Pino'z Pizza",
+    areaName: "Khokhara",
+    avgRating: 4.2,
+    costForTwo: 40000,
+    cuisines: ["Pizzas", "Pastas"],
+    enrichedText: "Far (6.3 kms) | Additional delivery fee will apply",
+    totalRatings: "1K+ ratings",
+    deliveryTime: 33,
+    offers: [
+      {
+        couponCode: "USE FLAT125",
+        description: "ABOVE ₹699",
+        header: "FLAT ₹125 OFF",
+      },
+      {
+        couponCode: "NO CODE REQUIRED",
+        description: "ABOVE ₹299",
+        header: "FLAT ₹50 OFF",
+      },
+      {
+        couponCode: "USE CITIFOODIE",
+        description: "ABOVE ₹1200",
+        header: "15% OFF UPTO ₹300",
+      },
+      {
+        couponCode: "USE JUMBO",
+        description: "ABOVE ₹400",
+        header: "15% OFF UPTO ₹80",
+      },
+      {
+        couponCode: "USE AXIS120",
+        description: "ABOVE ₹500",
+        header: "FLAT ₹120 OFF",
+      },
+    ],
+    TopPicks: {
+      title: "Top Picks",
+      TopPicksImg: [
+        {
+          id: "LaPino1",
+          image: LaPinoz1,
+        },
+        {
+          id: "LaPino2",
+          image: LaPinoz2,
+        },
+        {
+          id: "LaPino3",
+          image: LaPinoz3,
+        },
+        {
+          id: "LaPino4",
+          image: LaPinoz4,
+        },
+        {
+          id: "LaPino5",
+          image: LaPinoz5,
+        },
+      ],
+    },
+    CarausalDatas: [
+      {
+        title: "Value Meals for 2 (Minimum 25% off)",
+        ItemCard: [
+          {
+            id: "117964758",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "117964759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+            price: 49143,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "117964760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+            name: "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+            price: 38857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "117964767",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+            name: "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+            price: 30667,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "118017812",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + Fries (L) + 2 Coke",
+            name: "2 McChicken Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "118017813",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            name: "2 McSpicy Chicken Burger + Fries (L) + 2 Coke",
+            price: 49048,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "118017814",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + Fries (L) + 2 Coke",
+            name: "2 McVeggie Burger + Fries (L) + 2 Coke",
+            price: 38858,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "118017816",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            name: "McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger",
+            price: 33715,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "125283759",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Corn and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Corn and Cheese Burger + Fries (L) + 2 Coke",
+            price: 41925,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "125283760",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 Grilled Chicken and Cheese Burger + Fries (L)  + 2 Coke",
+            name: "2 Grilled Chicken and Cheese Burger + Fries (L) \t+ 2 Coke",
+            price: 46938,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "125283761",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Chicken (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Chicken + Fries (L)  + 2 Coke",
+            price: 64888,
+            inStock: 1,
+            image: value11,
+          },
+          {
+            id: "125283762",
+            description:
+              "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McCheese Burger Veg (with New Italian Herb Bun) + Fries (L)  + 2 Coke",
+            name: "2 McCheese Burger Veg + Fries (L) + 2 Coke",
+            price: 61942,
+            inStock: 1,
+            image: value12,
+          },
+        ],
+      },
+      {
+        title: "EZ Delivery Meals",
+        ItemCard: [
+          {
+            id: "47530013",
+            description:
+              "Treat yourself to a Big Spicy Paneer Wrap  + Fries (M) + Coke (M) Order now to experience a customizable, delicious meal",
+            name: "Big Spicy Paneer Wrap Meal (M)",
+            price: 37238,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "63304679",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 9 Pcs Meal",
+            price: 37810,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "63304694",
+            description:
+              "Relish on a juicy Chicken Kebab Burger + Fries (M) + Drink of your Choice on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Chicken Kebab Burger Meal",
+            price: 26857,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "63304873",
+            description:
+              "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal. Save Rs.50 on this Meal.",
+            name: "McSaver McVeggie Meal",
+            price: 27905,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "63304899",
+            description:
+              "Your favorite McChicken Burger + Fries (M) + Drink of your choice.",
+            name: "McSaver McChicken Meal",
+            price: 30476,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "63304913",
+            description:
+              "Enjoy your favorite Chicken McNuggets + Fries (M) + Drink of your choice.",
+            name: "McSaver Chicken McNuggets 6 Pcs Meal",
+            price: 34667,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "63304918",
+            description:
+              "Treat yourself with a Big Spicy Chicken Wrap + Fries (M) + Drink of your choice.",
+            name: "McSaver Big Spicy Chicken Wrap Meal",
+            price: 41238,
+            inStock: 1,
+            image: value7,
+          },
+          {
+            id: "67551859",
+            description:
+              "Enjoy a combo of Masala McEgg + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Masala McEgg Meal",
+            price: 23048,
+            inStock: 1,
+            image: value8,
+          },
+          {
+            id: "115130543",
+            description:
+              "Enjoy a delicious meal of McAloo Tikki Burger with Whole wheat bun + Fries (M) + Beverage of your choice in a new, delivery friendly, resuable bottle.",
+            name: "McSaver McAloo Tikki Meal",
+            price: 20476,
+            inStock: 1,
+            image: value9,
+          },
+          {
+            id: "123579163",
+            description:
+              "Enjoy a crispy McSpicy Paneer Burger + Fries (M) + Coke (M) . Order now to experience a customizable, delicious meal.",
+            name: "McSpicy Paneer Burger Meal (M)",
+            price: 30857,
+            inStock: 1,
+            image: value10,
+          },
+          {
+            id: "63304893",
+            description:
+              "Enjoy a combo of Mexican McAloo Tikki + Fries (M) + Drink of your Choice . Order now to experience a customizable, delicious meal.",
+            name: "McSaver Mexican McAloo Tikki Meal",
+            price: 21524,
+            inStock: 1,
+            image: value11,
+          },
+        ],
+      },
+      {
+        title: "Cheese Burgers and Meals",
+        ItemCard: [
+          {
+            id: "112618452",
+            description:
+              "Earlier known as American Cheese Supreme Veg, this is a burger with crispy corn & cheese patty, covered with a slice of cheese, creamy cocktail sauce, jalapenos and shredded onions",
+            name: "Corn & Cheese Burger.",
+            price: 14476,
+            inStock: 1,
+            image: value1,
+          },
+          {
+            id: "112618466",
+            description:
+              "Earlier known as American Cheese Supreme Chicken, this is a burger with grilled chicken patty covered with a slice of cheese, a dollop of spicy habanero sauce, jalapenos and shredded onions",
+            name: "Grilled Chicken & Cheese Burger.",
+            price: 16381,
+            inStock: 1,
+            image: value2,
+          },
+          {
+            id: "112618470",
+            description:
+              "The Delicious McCheese Burger Chicken (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty and Flame grilled Chicken patty, roasted chipotle sauce, shredded onion,Jalapenos & Lettuce.",
+            name: "McCheese Burger Chicken.",
+            price: 28095,
+            inStock: 1,
+            image: value3,
+          },
+          {
+            id: "112618480",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Chicken Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Chicken Meal.",
+            price: 38476,
+            inStock: 1,
+            image: value4,
+          },
+          {
+            id: "115130521",
+            description:
+              "Enjoy a combo of Corn & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Corn & Cheese Burger Meal",
+            price: 29905,
+            inStock: 1,
+            image: value5,
+          },
+          {
+            id: "115130540",
+            description:
+              "Enjoy a combo of Grilled Chicken & Cheese Burger + Fries (M) + Coke on this meal. Order now to experience a customizable, delicious meal.",
+            name: "McSaver Grilled Chicken & Cheese Burger Meal`",
+            price: 31714,
+            inStock: 1,
+            image: value6,
+          },
+          {
+            id: "125369443",
+            description:
+              "Enjoy a deliciously filling meal of McCheese Veg Burger (now with New Italian Herb Bun) + Fries (M) + Beverage of your Choice in a delivery friendly, reusable bottle.",
+            name: "McSaver McCheese Burger Veg Meal`",
+            price: 38476,
+            inStock: 1,
+            image: value7,
+          },
+        ],
+      },
+    ],
   },
 ];
-
-

@@ -85,7 +85,12 @@
   margin: 5px;
 }
 .RighNav div :nth-child(1) {
-  font-size: 25px;
+  font-size: 23px;
+}
+.NavCart a {
+  list-style: none;
+  text-decoration: none;
+  color: #3c4043;
 }
 .NavOffers span:nth-child(2) {
   position: relative;
@@ -578,6 +583,10 @@
 .TopRestroMap {
   display: flex;
   overflow: scroll;
+}
+.TopRestroMap a {
+  color: #3c4043;
+  text-decoration: none;
 }
 .TopRestroMap::-webkit-scrollbar {
   display: none;
@@ -1919,7 +1928,6 @@
   }
 }
 
-
 /* Media Query For Low Resolution Tablets,Ipads  */
 @media (min-width: 481px) and (max-width: 767px) {
   .RestroMenuDiv .hr:nth-child(6) {
@@ -1950,5 +1958,132 @@
     width: 60px;
     padding: 3px;
   }
+}
+.CarausalMenuDiv {
+  width: 65%;
+  margin: 20px auto;
+}
 
+.CarausalContainer {
+  margin: 20px auto;
+  padding: 20px;
+}
+.CarausalContainer h2 {
+  position: relative;
+  top: 10px;
+  left: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.CarausalMap {
+  margin: 10px;
+}
+.cdContainer {
+  margin: 15px auto;
+  border-bottom: 2px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.LeftDiv {
+  width: 70%;
+  margin: auto 10px;
+}
+.LeftDiv p {
+  font-size: 18px;
+  margin: 8px auto;
+}
+.LeftDiv p:nth-child(2) {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.LeftDiv p:nth-child(3) {
+  font-size: 15px;
+  opacity: 0.8;
+  font-weight: 500;
+  font-style: bold;
+  margin-top: 20px;
+}
+.RightDiv {
+  width: 20%;
+  margin: auto;
+}
+.RightDiv img {
+  width: 100%;
+  height: inherit;
+}
+.RightDiv button {
+  position: relative;
+  left: 60%;
+  padding: 5px;
+  background-color: whitesmoke;
+  bottom: 10px;
+  width: 60px;
+  border: none;
+  color: rgb(65, 179, 65);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  .CarausalMenuDiv {
+    width: 90%;
+    margin: 10px auto;
+    /* border: 1px solid red; */
+  }
+
+  .CarausalContainer {
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    padding: 0px;
+  }
+  .CarausalContainer h2 {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 10px;
+    left: 0px;
+    font-size: 15px;
+  }
+  .CarausalMap {
+    /* border: 1px solid red; */
+    margin: 25px auto;
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .cdContainer {
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    padding: 0px 0px;
+  }
+  .LeftDiv {
+    margin: auto 0px;
+  }
+  .LeftDiv p {
+    font-size: 15px;
+    margin: 8px auto;
+  }
+  .LeftDiv p:nth-child(2) {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .LeftDiv p:nth-child(3) {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .RightDiv {
+    width: 20%;
+    margin: auto;
+  }
+  .RightDiv button {
+    left: 30%;
+    padding: 5px;
+    width: 30px;
+  }
+}
+.CartDiv{
+  position: relative;
+  margin-top: 100px;
+  border: 1px solid red;
 }

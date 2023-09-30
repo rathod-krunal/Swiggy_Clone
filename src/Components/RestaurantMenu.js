@@ -4,6 +4,7 @@ import { Menu_List } from "../DataBase/Db";
 import { AiFillStar } from "react-icons/ai";
 import { BsCurrencyRupee } from "react-icons/bs";
 import { MdTimelapse } from "react-icons/md";
+import MenuCarausal from "./MenuCarausal";
 function RestaurantMenu() {
   const { resId } = useParams();
   const matchingItem = Menu_List.find((item) => item.id === resId);
@@ -25,8 +26,8 @@ function RestaurantMenu() {
     name,
     totalRatings,
     offers,
+    CarausalDatas,
   } = matchingItem;
-  console.log(TopPicks);
   return (
     <div className="RestroMenuDiv">
       <div className="MainNameDiv">
@@ -76,18 +77,30 @@ function RestaurantMenu() {
         })}
       </div>
       <div className="hr"></div>
-      <div className="TopPick">
-        <div className="TopInner"> {TopPicks.title} </div>
-        <div className="TopImgDiv">
-          {TopPicks.TopPicksImg.map((topImg) => {
-            return (
-              <div className="topImgMapDiv">
-                <img src={topImg.image} alt="" />
-                <button> Add </button>
-              </div>
-            );
-          })}
+      {TopPicks && (
+        <div className="TopPick">
+          <div className="TopInner"> {TopPicks.title} </div>
+          <div className="TopImgDiv">
+            {TopPicks.TopPicksImg.map((topImg) => {
+              return (
+                <div className="topImgMapDiv">
+                  <img src={topImg.image} alt="" />
+                  <button> Add </button>
+                </div>
+              );
+            })}
+          </div>
         </div>
+      )}
+      <div className="CarausalMenuDiv">
+        {CarausalDatas.map((carausal) => {
+          return (
+            <div className="CarausalContainer">
+              <h2> {carausal.title} ({carausal.ItemCard.length}) </h2>
+              <MenuCarausal CarausalData={carausal.ItemCard} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

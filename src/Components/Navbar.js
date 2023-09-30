@@ -6,13 +6,16 @@ import { CiDiscount1 } from "react-icons/ci";
 import { IoHelpBuoyOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import {BsBag} from "react-icons/bs"
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="Navbar">
       <div className="leftNav">
         <div className="logoDiv">
+          <Link to={"/"}>
           <img src={NavLogo} alt="" />
+          </Link>
+          
         </div>
         <div className="NavTitle">
           <span>Other</span>
@@ -38,8 +41,11 @@ function Navbar() {
           <span>Sign in</span>
         </div>
         <div className="NavCart">
-            <BsBag/>
+          <Link to={"/cart"}>
+          <BsBag/>
             <span>Cart</span>
+          </Link>
+        
         </div>
       </div>
     </div>
