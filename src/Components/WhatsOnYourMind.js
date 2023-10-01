@@ -25,8 +25,8 @@ function WhatsOnYourMind() {
         <div className="WhatOnMindMap">
           {WhatOnMindImg.map((WhatOnMindImg) => {
             return (
-              <div className="WhatOnMindImg">
-                <img src={WhatOnMindImg} alt="" srcset="" />
+              <div key={WhatOnMindImg} className="WhatOnMindImg">
+                <img src={WhatOnMindImg} alt=""/>
               </div>
             );
           })}

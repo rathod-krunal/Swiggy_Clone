@@ -23,8 +23,8 @@ function Carausls() {
       <div className="carausalMapDiv">
         {carausalImg.map((CarausalsImage) => {
           return (
-            <div key={carausalImg.id} className="CarausalImgDiv">
-              <img src={CarausalsImage.CarausalImg} alt="" srcset="" />
+            <div key={CarausalsImage.id} className="CarausalImgDiv">
+              <img src={CarausalsImage.CarausalImg} alt="" />
             </div>
           );
         })}

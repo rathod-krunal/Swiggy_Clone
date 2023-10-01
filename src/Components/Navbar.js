@@ -7,7 +7,9 @@ import { IoHelpBuoyOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import {BsBag} from "react-icons/bs"
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 function Navbar() {
+  const CartData = useSelector((state) => state.CartReducer.Cart)
   return (
     <div className="Navbar">
       <div className="leftNav">
@@ -43,7 +45,7 @@ function Navbar() {
         <div className="NavCart">
           <Link to={"/cart"}>
           <BsBag/>
-            <span>Cart</span>
+            <span>Cart <span> {CartData.length} </span> </span>
           </Link>
         
         </div>

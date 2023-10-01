@@ -62,7 +62,7 @@ function RestaurantMenu() {
       <div className="OffersDiv">
         {offers.map((offer) => {
           return (
-            <div className="OffersInnerDiv">
+            <div key={offer.couponCode + offer.description } className="OffersInnerDiv">
               <div className="OffersHead">
                 {" "}
                 <span>{offer.header}</span>{" "}
@@ -83,7 +83,7 @@ function RestaurantMenu() {
           <div className="TopImgDiv">
             {TopPicks.TopPicksImg.map((topImg) => {
               return (
-                <div className="topImgMapDiv">
+                <div key={topImg.id} className="topImgMapDiv">
                   <img src={topImg.image} alt="" />
                   <button> Add </button>
                 </div>
@@ -95,7 +95,7 @@ function RestaurantMenu() {
       <div className="CarausalMenuDiv">
         {CarausalDatas.map((carausal) => {
           return (
-            <div className="CarausalContainer">
+            <div key={carausal.id}  className="CarausalContainer">
               <h2> {carausal.title} ({carausal.ItemCard.length}) </h2>
               <MenuCarausal CarausalData={carausal.ItemCard} />
             </div>

@@ -849,7 +849,7 @@ export const Menu_List = [
           image: MenuCarausal2,
         },
         {
-          id: "Mac2",
+          id: "Mac3",
           image: MenuCarausal3,
         },
         {
@@ -864,6 +864,7 @@ export const Menu_List = [
     },
     CarausalDatas: [
       {
+        id : "Value1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -977,6 +978,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "EZ1",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -1081,6 +1083,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "Cheese1",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {
@@ -1226,6 +1229,7 @@ export const Menu_List = [
     },
     CarausalDatas: [
       {
+        id : "SubValue1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -1339,6 +1343,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "SubValue2",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -1443,6 +1448,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "SubValue3",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {
@@ -1551,6 +1557,7 @@ export const Menu_List = [
     ],
     CarausalDatas: [
       {
+        id: "IsconValu1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -1664,6 +1671,7 @@ export const Menu_List = [
         ],
       },
       {
+        id: "IsconValu2",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -1768,6 +1776,7 @@ export const Menu_List = [
         ],
       },
       {
+        id: "IsconValu3",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {
@@ -1900,6 +1909,7 @@ export const Menu_List = [
     },
     CarausalDatas: [
       {
+        id : "PizzaValue1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -2013,6 +2023,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "PizzaValue2",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -2117,6 +2128,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "PizzaValue3",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {
@@ -2258,6 +2270,7 @@ export const Menu_List = [
     },
     CarausalDatas: [
       {
+        id : "KFCValue1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -2371,6 +2384,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "KFCValue2",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -2475,6 +2489,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "KFCValue3",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {
@@ -2563,6 +2578,7 @@ export const Menu_List = [
     ],
     CarausalDatas: [
       {
+        id : "BurgerValue1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -2676,6 +2692,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "BurgerValue2",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -2780,6 +2797,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "BurgerValue3",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {
@@ -2901,6 +2919,7 @@ export const Menu_List = [
     },
     CarausalDatas: [
       {
+        id : "DominozValue1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -3014,6 +3033,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "DominozValue2",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -3118,6 +3138,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "DominozValue3",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {
@@ -3251,6 +3272,7 @@ export const Menu_List = [
     },
     CarausalDatas: [
       {
+        id : "LaPinozValue1",
         title: "Value Meals for 2 (Minimum 25% off)",
         ItemCard: [
           {
@@ -3364,6 +3386,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "LaPinozValue2",
         title: "EZ Delivery Meals",
         ItemCard: [
           {
@@ -3468,6 +3491,7 @@ export const Menu_List = [
         ],
       },
       {
+        id : "LaPinozValue3",
         title: "Cheese Burgers and Meals",
         ItemCard: [
           {

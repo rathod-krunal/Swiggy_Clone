@@ -2082,8 +2082,84 @@
     width: 30px;
   }
 }
-.CartDiv{
+.CartOuterDiv {
   position: relative;
   margin-top: 100px;
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.CartDiv {
+  padding: 10px;
+  width: 65%;
+  margin: 10px 10px;
+}
+.CartInnerDiv {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.CartInnerDiv:hover{
+  transform: scale(0.98);
+  transition: all 0.50s;
+}
+.CartInnerLeft {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+}
+.CartLeft {
+  width: 60%;
+  padding: 5px 10px;
+}
+.CartLeft div {
+  margin: 5px auto;
+}
+.CartDesc {
+  font-size: 15px;
+  opacity: 0.8;
+}
+.CartPrice {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: bold;
+}
+.CartQnty {
+  font-weight: 500;
+  font-size: 18px;
+}
+.qntyDiv {
+  display: inline-block;
+  font-size: 18px;
+}
+.qntyDiv button {
+  width: 30px;
+  padding: 2px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+.CartName {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.CartRight {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CartRight img {
+  width: 50%;
+}
+.CartInnerRight {
+  border: 2px solid red;
+  width: 30%;
+  height: 400px;
+  margin: 50px 10px;
+  position: fixed;
+  right: 0px;
 }
